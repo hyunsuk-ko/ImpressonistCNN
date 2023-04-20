@@ -8,23 +8,24 @@ for name, param in model.named_parameters():
     param.requires_grad = False
 
 for name, param in model.named_parameters():
-    if 'blocks.15' in name or 'blocks.16' in name or 'fc' in name:
-        param.requires_grad = True
+    for i in [7,8]:
+        if name.startswith(f'features.{i}'):
+            param.requires_grad = True
 
 # Modify the fully connected head
 DO = 0.
-model.fc = nn.Sequential(
-    nn.Linear(1280, 512),
-    nn.BatchNorm1d(512),
+model.classifier = nn.Sequential(
+    nn.Linear(1280, 256),
+    nn.BatchNorm1d(256),
     nn.ReLU(inplace=True),
     nn.Dropout(DO),
 
-    nn.Linear(512, 128),
-    nn.BatchNorm1d(128),
+    nn.Linear(256, 64),
+    nn.BatchNorm1d(64),
     nn.ReLU(inplace=True),
     nn.Dropout(DO),
 
-    nn.Linear(128, len(artists))
+    nn.Linear(64, len(artists))
 )
 
 # Print the named parameters to confirm that the correct ones are frozen and unfrozen
