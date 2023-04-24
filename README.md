@@ -7,11 +7,11 @@ Using a dataset from Kaggle (https://www.kaggle.com/datasets/delayedkarma/impres
 
 ## Repository Manifest
 
-* architectures/    - this directory contains the architectures for the three models included in our ensemble
+* architectures    - this directory contains the architectures for the three models included in our ensemble
     * efficientnet.py
     * googlenet.py
     * resnet.py
-* tuning/    - this directory contains the notebooks used to perform the hyperparameter tuning experiments
+* tuning    - this directory contains the notebooks used to perform the hyperparameter tuning experiments
     * Deep_Impressionist_Efficientnet.ipynb
     * GoogLeNet_Trial.ipynb
 * .gitignore
