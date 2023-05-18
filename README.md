@@ -18,7 +18,7 @@ Using a dataset from Kaggle (https://www.kaggle.com/datasets/delayedkarma/impres
         - `GoogLeNet_DR.ipynb`
         - `GoogLeNet_LR.ipynb`
         - `GoogLeNet_WD.ipynb`
-    * `ResNet`
+    * `ResNet/Deep_Impressionist.ipynb`
     
 * .gitignore
 * `Deep_Impressionist_Ensemble.ipynb`
