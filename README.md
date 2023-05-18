@@ -7,13 +7,27 @@ Using a dataset from Kaggle (https://www.kaggle.com/datasets/delayedkarma/impres
 
 ## Repository Manifest
 
-* architectures    - this directory contains the architectures for the three models included in our ensemble
-    * efficientnet.py
-    * googlenet.py
-    * resnet.py
-* tuning    - this directory contains the notebooks used to perform the hyperparameter tuning experiments
-    * Deep_Impressionist_Efficientnet.ipynb
-    * GoogLeNet_Trial.ipynb
+* `architectures`    - this directory contains the architectures for the three models included in our ensemble
+    * `efficientnet.py`
+    * `googlenet.py`
+    * `resnet.py`
+* `tuning`    - this directory contains the notebooks used to perform the hyperparameter tuning experiments
+    * `Efficientnet/Deep_Impressionist_Efficientnet.ipynb`
+    * `GoogLeNet`
+        - `GoogLeNet_BS.ipynb`
+        - `GoogLeNet_DR.ipynb`
+        - `GoogLeNet_LR.ipynb`
+        - `GoogLeNet_WD.ipynb`
+    * `ResNet`
+    
 * .gitignore
-* Deep_Impressionist_Ensemble.ipynb
-* README.md
+* `Deep_Impressionist_Ensemble.ipynb`
+* `final_report.pdf`
+* `README.md`
+
+## Instructions
+1. Fork the repository from Git
+2. Clone your forked repository
+3. Run each of the model in tuning directory, best models are already saved in `architectures` folder
+4. Run `Deep_Impressionist_Ensemble.ipynb` and ensemble the results from each model 
+
