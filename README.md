@@ -1,4 +1,5 @@
-# Identifying Impressonist Painting Using Convolutional Neural Networks
+# Identifying Impressonist Painters Using Convolutional Neural Networks
+
 Hyun Ko, Griffin McCauley, Eric Tria
 
 ## Project Overview
