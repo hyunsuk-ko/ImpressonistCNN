@@ -21,6 +21,7 @@ Using a dataset from Kaggle (https://www.kaggle.com/datasets/delayedkarma/impres
     * `ResNet/Deep_Impressionist.ipynb`
     
 * .gitignore
+* `DS 6050 Project Presentation Video Recording.mp4`
 * `Deep_Impressionist_Ensemble.ipynb`
 * `final_report.pdf`
 * `README.md`
