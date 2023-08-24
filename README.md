@@ -5,7 +5,7 @@ Hyun Ko, Griffin McCauley, Eric Tria
 
 Using a dataset from Kaggle (https://www.kaggle.com/datasets/delayedkarma/impressionist-classifier-data), the aim of this project was to develop a deep learning ensemble model to swiftly and accurately predict the artist responsible for a given Impressionist work. Through exploring a variety of pre-trained models such as GoogLeNet, ResNet, and EfficientNet and conducting a number of optimization techniques such as hyperparameter tuning and data augmentation, we hoped to produce a model capable of generating reliable and robust results. While this approach was successful in the sense that it yielded a final ensemble with a test accuracy of 88.5%, more work will need to be done to fully understand how specific stylistic qualities embedded in the paintings can be associated with specific artists.
 
-### A video presentation outlining the methodology and results of our project can be found at `DS 6050 Project Presentation Video Recording.mp4`
+**A video presentation outlining our methodology and results can be found here.**
 
 ## Repository Manifest
 
